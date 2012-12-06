@@ -62,7 +62,9 @@ __fori__
 
 ```js
 for (${1:prop} in ${2:object}) {
-    ${3:expression}
+    if (${2:object}.hasOwnProperty(${1:prop})) {
+        ${3:expression}
+    }
 }
 ```
 
