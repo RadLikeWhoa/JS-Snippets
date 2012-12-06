@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[do {
+    ${1:expression}
+} while (${2:condition});]]></content>
+    <tabTrigger>do</tabTrigger>
+    <description>JS - Do While loop</description>
+    <scope>source.js</scope>
+</snippet>
