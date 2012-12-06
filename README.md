@@ -16,6 +16,14 @@ __cls__
 localStorage.clear();
 ```
 
+__do__
+
+```js
+do {
+    ${1:expression}
+} while (${2:condition});
+```
+
 __eve__
 
 ```js
@@ -39,6 +47,22 @@ if (${1:condition}) {
     ${2:expression}
 } else {
     ${3:other expression}
+}
+```
+
+__for__
+
+```js
+for (${1:var i = 0}; ${2:i < ${3:elements.lenght}}; ${4:i++}) {
+    ${5:expression}
+}
+```
+
+__fori__
+
+```js
+for (${1:prop} in ${2:object}) {
+    ${3:expression}
 }
 ```
 
@@ -67,4 +91,12 @@ __rand__
 
 ```js
 Math.floor(Math.random() * ${1:10})
+```
+
+__while__
+
+```js
+while (${1:condition}) {
+    ${2:expression}
+};
 ```
