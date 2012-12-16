@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+setTimeout(${1:function}(){
+	${2:actions}
+	},${3:delay});
+]]></content>
+	 <tabTrigger>sto</tabTrigger>
+=======
+setInterval("${1:function()", ${2:delay});
+]]></content>
+	 <tabTrigger>siv</tabTrigger>
+>>>>>>> 0b27b86... add switch, setInterval, setTimeout
+	<scope>source.js</scope>
+</snippet>

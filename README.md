@@ -95,6 +95,34 @@ __rand__
 Math.floor(Math.random() * ${1:10})
 ```
 
+__setInterval__
+
+```js
+setInterval("function()", delay);
+```
+
+__setTimeout__
+
+```js
+setTimeout(function(){
+    actions
+    },delay);
+```
+
+__switch__
+
+```js
+switch(var) {
+    case case1:
+        actions1
+    break;
+    case case2:
+	actions2
+    break;
+}
+```
+
+
 __while__
 
 ```js
