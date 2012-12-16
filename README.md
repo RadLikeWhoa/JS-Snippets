@@ -53,7 +53,7 @@ if (${1:condition}) {
 __interval__
 
 ```js
-setInterval("function()", delay);
+setInterval(${1:function}, ${2:delay});
 ```
 
 __for__
@@ -104,22 +104,19 @@ Math.floor(Math.random() * ${1:10})
 __switch__
 
 ```js
-switch(var) {
-    case case1:
-        actions1
-    break;
-    case case2:
-	actions2
-    break;
+switch(${1:var}) {
+    case $2:
+        $3
+        break;
+    case $4:
+        $5
+        break;
 }
-
 ```
 __timeout__
 
 ```js
-setTimeout(function(){
-    actions
-    },delay);
+setTimeout(${1:function}, ${2:delay});
 ```
 
 __while__

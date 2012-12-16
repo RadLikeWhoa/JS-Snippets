@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-setTimeout(${1:function}(){
-	${2:actions}
-	},${3:delay});
-]]></content>
-	 <tabTrigger>timeout</tabTrigger>
-	<scope>source.js</scope>
-</snippet>
