@@ -2,6 +2,6 @@
 	<content><![CDATA[
 setInterval("${1:function}()", ${2:delay});
 ]]></content>
-	 <tabTrigger>siv</tabTrigger>
+	 <tabTrigger>interval</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

@@ -50,6 +50,12 @@ if (${1:condition}) {
 }
 ```
 
+__interval__
+
+```js
+setInterval("function()", delay);
+```
+
 __for__
 
 ```js
@@ -95,20 +101,6 @@ __rand__
 Math.floor(Math.random() * ${1:10})
 ```
 
-__setInterval__
-
-```js
-setInterval("function()", delay);
-```
-
-__setTimeout__
-
-```js
-setTimeout(function(){
-    actions
-    },delay);
-```
-
 __switch__
 
 ```js
@@ -120,8 +112,15 @@ switch(var) {
 	actions2
     break;
 }
-```
 
+```
+__timeout__
+
+```js
+setTimeout(function(){
+    actions
+    },delay);
+```
 
 __while__
 
