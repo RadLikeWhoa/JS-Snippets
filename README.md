@@ -59,7 +59,7 @@ setInterval(${1:function}, ${2:delay});
 __for__
 
 ```js
-for (${1:var i = 0}; ${2:i < ${3:elements.lenght}}; ${4:i++}) {
+for (${1:var i = 0}; ${2:i < ${3:elements.length}}; ${4:i++}) {
     ${5:expression}
 }
 ```
