@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[${1:element}.addEventListener('$2', function (e) {
-    $3
+	$3
 }, false);]]></content>
 	<tabTrigger>eve</tabTrigger>
-    <description>JS - addEventListener</description>
+	<description>JS - addEventListener</description>
 	<scope>source.js</scope>
 </snippet>

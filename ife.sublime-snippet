@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[if (${1:condition}) {
-    ${2:expression}
+	<content><![CDATA[if (${1:condition}) {
+	${2:expression}
 } else {
-    ${3:second expression}
+	${3:second expression}
 }]]></content>
-    <tabTrigger>ife</tabTrigger>
-    <description>JS - if else</description>
-    <scope>source.js</scope>
+	<tabTrigger>ife</tabTrigger>
+	<description>JS - if else</description>
+	<scope>source.js</scope>
 </snippet>

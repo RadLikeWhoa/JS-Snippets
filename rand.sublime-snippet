@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[Math.floor(Math.random() * ${1:10})]]></content>
-    <tabTrigger>rand</tabTrigger>
-    <description>JS - Random number</description>
-    <scope>source.js</scope>
+	<content><![CDATA[Math.floor(Math.random() * ${1:10})]]></content>
+	<tabTrigger>rand</tabTrigger>
+	<description>JS - Random number</description>
+	<scope>source.js</scope>
 </snippet>
