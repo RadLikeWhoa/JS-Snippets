@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[if (localStorage.${1:item}) {
-    var ${1:item} = localStorage.${1:item};
-    $2
+	<content><![CDATA[if (localStorage.${1:item}) {
+	var ${1:item} = localStorage.${1:item};
+	$2
 }]]></content>
-    <tabTrigger>ls</tabTrigger>
-    <description>JS - localStorage</description>
-    <scope>source.js</scope>
+	<tabTrigger>ls</tabTrigger>
+	<description>JS - localStorage</description>
+	<scope>source.js</scope>
 </snippet>
