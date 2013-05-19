@@ -2,10 +2,10 @@
 	<content><![CDATA[switch(${1:var}) {
 	case $2:
 		$3
-        break;
+		break;
 	case $4:
-        $5
-        break;
+		$5
+		break;
 }]]></content>
 	 <tabTrigger>switch</tabTrigger>
 	<scope>source.js</scope>
